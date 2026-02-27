@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import { fadeRight, staggerContainer, staggerItem } from "@/lib/animations";
@@ -129,14 +130,20 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
             >
-                <div className="relative rounded-xl overflow-hidden border border-white/20 max-w-[420px] w-full mx-auto">
-                    <div className="w-full bg-navy min-h-[320px] lg:min-h-[500px] flex flex-col items-center justify-center">
-                        <div className="font-cormorant text-white/50 text-6xl font-semibold border-[2px] border-white/20 w-[120px] h-[120px] rounded-full flex items-center justify-center">
-                            JK
-                        </div>
-                        <span className="font-inter text-muted text-xs mt-[16px]">
-                            Professional Photo Coming Soon
-                        </span>
+                <div
+                    className="relative rounded-xl overflow-hidden w-full max-w-[420px] mx-auto bg-navy"
+                    style={{
+                        boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.08)"
+                    }}
+                >
+                    <div className="w-full min-h-[320px] lg:min-h-[500px] flex flex-col items-center justify-center relative">
+                        <Image
+                            src="/images/john-kanyi-landscape.jpeg"
+                            alt="John Kanyi Professional Portrait"
+                            fill
+                            style={{ objectFit: "cover", objectPosition: "center top" }}
+                            priority
+                        />
                     </div>
                 </div>
             </motion.div>

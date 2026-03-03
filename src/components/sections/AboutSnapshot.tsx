@@ -9,7 +9,7 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 export default function AboutSnapshot() {
 
     const metrics: Array<{ label: string; element: React.ReactNode }> = [
-        { label: "Secured Annually", element: <CountUp end={100} prefix="$" suffix="M+" duration={2.5} enableScrollSpy scrollSpyOnce /> },
+        { label: "Managed Annually", element: <CountUp end={100} prefix="$" suffix="M+" duration={2.5} enableScrollSpy scrollSpyOnce /> },
         { label: "Win Rate on Major Bids", element: <CountUp end={65} suffix="%" duration={2.5} enableScrollSpy scrollSpyOnce /> },
         { label: "Regional Pipeline Managed", element: <CountUp end={250} prefix="$" suffix="M+" duration={2.5} enableScrollSpy scrollSpyOnce /> },
         { label: "Smallholder Farmers Reached", element: <CountUp end={200000} separator="," duration={2.5} enableScrollSpy scrollSpyOnce /> },
@@ -40,7 +40,7 @@ export default function AboutSnapshot() {
                     transition={{ delay: 0.1 }}
                     className="font-inter text-charcoal text-base lg:text-lg leading-loose text-center max-w-[800px] mx-auto mt-[24px]"
                 >
-                    Across 17 years and 15 African countries, I have sat at the table where funding decisions worth hundreds of millions of dollars are made and consistently delivered the results that keep organisations coming back. The <span className="font-bold text-navy">$43 million</span> award secured in six weeks. The <span className="font-bold text-navy">$34.8 million</span> in agricultural sales generated for <span className="font-bold text-navy">200,000 farmers</span> who had never had that kind of market access before. The <span className="font-bold text-navy">$250 million</span> pipeline built from nothing into one of the most productive business development operations HJFMRI has run on the continent.
+                    Across 17 years and 5+ African countries, I have sat at the table where funding decisions worth hundreds of millions of dollars are made and consistently delivered the results that keep organisations coming back. The <span className="font-bold text-navy">$43 million</span> award secured in six weeks. The <span className="font-bold text-navy">$34.8 million</span> in agricultural sales generated for <span className="font-bold text-navy">200,000 farmers</span> who had never had that kind of market access before. The <span className="font-bold text-navy">$250 million</span> pipeline built from nothing into one of the most productive business development operations HJFMRI has run on the continent.
                 </motion.p>
 
                 <motion.div

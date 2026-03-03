@@ -32,7 +32,7 @@ export default function HeroSection() {
                     <motion.div variants={staggerItem} transition={{ duration: 0.7, ease: "easeOut" }} className="flex items-center gap-3">
                         <div className="w-[40px] h-[1px] bg-gold" />
                         <span className="font-inter text-white text-xs font-semibold uppercase tracking-widest">
-                            {heroData.roleTitle || "Senior Grants & Business Development Leader"}
+                            {heroData.roleTitle || "International Grants & Business Development Leader"}
                         </span>
                     </motion.div>
 
@@ -64,7 +64,7 @@ export default function HeroSection() {
                             <span className="font-cormorant text-gold text-3xl font-semibold leading-none">
                                 <CountUp end={100} prefix="$" suffix="M+" duration={2.5} enableScrollSpy scrollSpyOnce />
                             </span>
-                            <span className="font-inter text-white/60 text-xs uppercase tracking-wide mt-[4px]">Secured Annually</span>
+                            <span className="font-inter text-white/60 text-xs uppercase tracking-wide mt-[4px]">Managed Annually</span>
                         </div>
 
                         {/* Mobile horizontal, Desktop vertical divider */}

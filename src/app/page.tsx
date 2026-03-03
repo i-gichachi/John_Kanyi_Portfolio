@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import HeroSection from "@/components/sections/HeroSection";
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Welcome to the portfolio of John Kanyi, an International Grants and Business Development Leader.',
+};
 import TrustStrip from "@/components/sections/TrustStrip";
 import AboutSnapshot from "@/components/sections/AboutSnapshot";
 import ExpertisePillars from "@/components/sections/ExpertisePillars";

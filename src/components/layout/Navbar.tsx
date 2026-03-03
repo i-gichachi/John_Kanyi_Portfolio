@@ -66,8 +66,8 @@ export default function Navbar() {
                                     key={link.name}
                                     href={link.href}
                                     className={`font-inter text-sm transition-colors duration-200 py-1 border-b-[2px] ${isActive
-                                            ? "text-gold border-gold"
-                                            : "text-white hover:text-gold border-transparent"
+                                        ? "text-gold border-gold"
+                                        : "text-white hover:text-gold border-transparent"
                                         }`}
                                 >
                                     {link.name}
@@ -75,7 +75,9 @@ export default function Navbar() {
                             );
                         })}
                         <a
-                            href="mailto:kanyitoday@gmail.com"
+                            href="https://calendly.com/kanyitoday/30min"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-gold text-white font-inter rounded-[6px] px-[10px] py-[8px] hover:brightness-90 transition-all text-sm"
                         >
                             Book a Consultation
@@ -129,7 +131,9 @@ export default function Navbar() {
                                 </Link>
                             ))}
                             <a
-                                href="mailto:kanyitoday@gmail.com"
+                                href="https://calendly.com/kanyitoday/30min"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className="bg-gold text-white font-inter rounded-[6px] px-[10px] py-[8px] hover:brightness-90 transition-all"
                             >

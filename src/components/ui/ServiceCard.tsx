@@ -94,7 +94,7 @@ export const ServiceCard = ({
                     label="Enquire Now"
                     variant="primary"
                     fullWidth={true}
-                    href={`mailto:${enquiryEmail}`}
+                    href="https://calendly.com/kanyitoday/30min"
                 />
             </div>
         </motion.div>

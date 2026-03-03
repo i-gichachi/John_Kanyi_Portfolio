@@ -44,14 +44,14 @@ export const ProfileSummary = () => {
                             </div>
                         </div>
                         <h2 className="font-cormorant text-white text-2xl lg:text-4xl font-semibold leading-snug max-w-[600px]">
-                            Senior Grants and Business Development Leader
+                            International Grants and Business Development Leader
                         </h2>
                     </div>
 
                     {/* ZONE 2 SUMMARY CONTENT */}
                     <div className="bg-white p-5 sm:p-6 lg:p-10">
                         <p className="font-body text-charcoal text-[15px] sm:text-base leading-loose">
-                            A results-driven Senior Grants and Business Development Leader with over <span className="font-bold text-navy">17 years</span> of experience securing and managing large-scale donor-funded programmes across sub-Saharan Africa. Proven track record of building and managing regional funding pipelines exceeding <span className="font-bold text-navy">$250 million</span>, achieving a <span className="font-bold text-navy">65%</span> win rate on major bids, and securing over <span className="font-bold text-navy">$100 million</span> annually from USG agencies, the EU, WHO and private donors. Expert in full grant lifecycle management, donor compliance, partner capacity building and remote cross-cultural programme leadership. Holds dual Master's degrees, a <span className="font-bold text-navy">GPC</span>, <span className="font-bold text-navy">CPA</span>, <span className="font-bold text-navy">PMP</span>, <span className="font-bold text-navy">CFCM</span> and <span className="font-bold text-navy">PMD</span>, combining deep technical expertise with institutional credibility across the international development sector.
+                            A results-driven International Grants and Business Development Leader with over <span className="font-bold text-navy">17 years</span> of experience securing and managing large-scale donor-funded programmes across sub-Saharan Africa. Proven track record of building and managing regional funding pipelines exceeding <span className="font-bold text-navy">$250 million</span>, achieving a <span className="font-bold text-navy">65%</span> win rate on major bids, and securing over <span className="font-bold text-navy">$100 million</span> annually from USG agencies, the EU, WHO and private donors. Expert in full grant lifecycle management, donor compliance, partner capacity building and remote cross-cultural programme leadership. Holds dual Master's degrees, a <span className="font-bold text-navy">GPC</span>, <span className="font-bold text-navy">CPA</span>, <span className="font-bold text-navy">PMP</span>, <span className="font-bold text-navy">CFCM</span> and <span className="font-bold text-navy">PMD</span>, combining deep technical expertise with institutional credibility across the international development sector.
                         </p>
 
                         <motion.div

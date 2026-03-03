@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Linkedin, Mail, Phone, MapPin, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/animations";
 import { Button } from "@/components/ui/Button";
@@ -42,7 +42,7 @@ export default function Footer() {
                         </Link>
 
                         <div className="font-inter text-white text-sm mt-[8px]">
-                            Senior Grants and Business Development Leader
+                            International Grants and Business Development Leader
                         </div>
 
                         <p className="font-inter text-white/50 text-xs leading-relaxed mt-[12px] max-w-[260px]">
@@ -96,7 +96,7 @@ export default function Footer() {
                         </h4>
 
                         <div className="flex flex-col gap-[12px] items-center lg:items-start w-full">
-                            <a href="mailto:kanyitoday@gmail.com" className="flex flex-row items-start gap-[10px] group text-center lg:text-left">
+                            <a href="https://calendly.com/kanyitoday/30min" target="_blank" rel="noopener noreferrer" className="flex flex-row items-start gap-[10px] group text-center lg:text-left">
                                 <Mail size={16} className="text-white/80 group-hover:text-white transition-colors flex-shrink-0 mt-[1px]" />
                                 <span className="font-inter text-white/70 text-sm transition-opacity duration-200 group-hover:text-white">
                                     kanyitoday@gmail.com
@@ -123,11 +123,18 @@ export default function Footer() {
                                     Nairobi, Kenya
                                 </span>
                             </div>
+
+                            <a href="https://www.thinkatonneadvisory.com/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-start gap-[10px] group text-center lg:text-left mt-[8px]">
+                                <Globe size={16} className="text-white/80 group-hover:text-white transition-colors flex-shrink-0 mt-[1px]" />
+                                <span className="font-inter text-white/70 text-sm transition-opacity duration-200 group-hover:text-white">
+                                    thinkatonneadvisory.com
+                                </span>
+                            </a>
                         </div>
 
                         <div className="mt-[24px]">
                             <Button
-                                href="mailto:kanyitoday@gmail.com"
+                                href="https://calendly.com/kanyitoday/30min"
                                 variant="primary"
                                 label="Book a Consultation"
                             />

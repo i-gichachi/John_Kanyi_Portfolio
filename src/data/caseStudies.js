@@ -218,7 +218,7 @@ const caseStudies = [
             "HJFMRI's local footprint expanded into 3 new countries through formalised institutional partnerships.",
             "Regional pipeline grew to 30+ active opportunities worth more than $250M.",
             "65% win rate sustained on major bids over two years supported directly by the new partnership frameworks.",
-            "$100M+ secured annually from USG agencies, the EU, WHO and private donors following the expansion.",
+            "$100M+ managed annually from USG agencies, the EU, WHO and private donors following the expansion.",
             "95%+ donor satisfaction scores maintained across 20+ active awards within the expanded portfolio.",
         ],
         qualitativeAchievements: [
@@ -351,24 +351,24 @@ const caseStudies = [
     },
     {
         id: 5,
-        title: "Regional Business Development Strategy Secures $100M+ Annually Across 15 African Countries",
+        title: "Regional Business Development Strategy Secures $100M+ Annually Across 5+ African Countries",
         organization: "HJFMRI",
         logo: "/logos/HJFMRI_logo.jpg",
         slug: "regional-business-development-strategy-secures-100-million",
         programmeValue: "$100M+",
         donor: "USG, EU, WHO, Private",
-        location: "15+ African Countries",
+        location: "5+ African Countries",
         featuredMetrics: [
-            { value: "$100M+", label: "Secured Annually" },
+            { value: "$100M+", label: "Managed Annually" },
             { value: "65%", label: "Win Rate on Major Bids" },
             { value: "Zero", label: "Major Audit Findings" },
         ],
         executiveSummary:
-            "As Senior Regional Business Development and Grants Manager at HJFMRI, I was responsible for leading a high-performing business development function across 15+ African countries, building and managing a regional pipeline of 30+ active opportunities worth more than $250M and securing $100M+ annually from the most competitive donor environments in global health. By aligning technical teams with funder priorities early in the capture process, standardising pre- and post-award workflows and directing a portfolio spanning HIV/TB programmes, health systems strengthening and vaccine delivery, I sustained a 65% win rate on major bids over two years and maintained 95%+ donor satisfaction scores across 20+ active awards. This was not a single project win; it was the result of a sustained, disciplined and strategically led business development operation built to perform consistently at scale.",
+            "As Senior Regional Business Development and Grants Manager at HJFMRI, I was responsible for leading a high-performing business development function across 5+ African countries, building and managing a regional pipeline of 30+ active opportunities worth more than $250M and securing $100M+ managed annually from the most competitive donor environments in global health. By aligning technical teams with funder priorities early in the capture process, standardising pre- and post-award workflows and directing a portfolio spanning HIV/TB programmes, health systems strengthening and vaccine delivery, I sustained a 65% win rate on major bids over two years and maintained 95%+ donor satisfaction scores across 20+ active awards. This was not a single project win; it was the result of a sustained, disciplined and strategically led business development operation built to perform consistently at scale.",
         context:
             "Since July 2021, I have served as Senior Regional Business Development and Grants Manager at HJFMRI, one of the leading global health research and implementation organisations operating across sub-Saharan Africa. My remit spans the full spectrum of business development and grants management, from early-stage opportunity identification and capture planning through to proposal coordination, post-award compliance and donor relationship management across a portfolio of USG, EU, WHO and private donor-funded programmes.",
         challenge:
-            "Operating across 15+ African countries with a lean regional team, the challenge was to sustain a high-volume, high-quality business development operation in one of the most competitive donor funding environments in global health. The organisation needed to grow its portfolio, diversify its donor base, maintain full compliance across all active awards and consistently deliver against ambitious performance targets, all while coordinating across multiple time zones, country offices and technical disciplines in a fully remote environment.",
+            "Operating across 5+ African countries with a lean regional team, the challenge was to sustain a high-volume, high-quality business development operation in one of the most competitive donor funding environments in global health. The organisation needed to grow its portfolio, diversify its donor base, maintain full compliance across all active awards and consistently deliver against ambitious performance targets, all while coordinating across multiple time zones, country offices and technical disciplines in a fully remote environment.",
         strategicApproach: [
             {
                 phase: "Phase 1: Pipeline Development and Capture Planning",
@@ -387,7 +387,7 @@ const caseStudies = [
             },
         ],
         quantifiableOutcomes: [
-            "$100M+ secured annually from USG agencies, the EU, WHO and private donors.",
+            "$100M+ managed annually from USG agencies, the EU, WHO and private donors.",
             "Regional pipeline of 30+ active opportunities worth more than $250M built and managed.",
             "65% win rate sustained on major bids over two years.",
             "95%+ donor satisfaction scores maintained across 20+ active awards.",
@@ -399,13 +399,13 @@ const caseStudies = [
             "Transformed the regional business development function from a reactive operation into a structured, intelligence-led pipeline management system.",
             "Diversified the organisation's donor base by attracting new European and private philanthropic partners into the regional portfolio.",
             "Built a high-performing, cross-functional remote team capable of delivering complex, multi-country proposals to the highest competitive standard.",
-            "Strengthened HJFMRI's reputation as a trusted and technically credible implementing partner across 15+ African countries.",
+            "Strengthened HJFMRI's reputation as a trusted and technically credible implementing partner across 5+ African countries.",
             "Created scalable proposal management frameworks and compliance systems that continue to support the organisation's growth beyond individual bid cycles.",
         ],
         keyTakeaway:
             "The most important lesson from leading business development at this scale was that winning is a system, not an event. Sustainable high win rates are built through disciplined pipeline management, early technical alignment and a relentless commitment to quality at every stage of the proposal process, not through heroic last-minute efforts on individual bids.",
         conclusion:
-            "This case study reflects my ability to lead and sustain a high-performing regional business development and grants management operation at scale, consistently delivering against ambitious funding targets in one of the most competitive donor environments in global health. The $100M+ secured annually, the 65% win rate and the zero audit findings across a $75M+ active portfolio are the clearest possible evidence of what strategic, disciplined and genuinely expert grants and business development leadership can achieve.",
+            "This case study reflects my ability to lead and sustain a high-performing regional business development and grants management operation at scale, consistently delivering against ambitious funding targets in one of the most competitive donor environments in global health. The $100M+ managed annually, the 65% win rate and the zero audit findings across a $75M+ active portfolio are the clearest possible evidence of what strategic, disciplined and genuinely expert grants and business development leadership can achieve.",
         technicalProficiencies: [
             {
                 tool: "GMS Software",
@@ -430,7 +430,7 @@ const caseStudies = [
             {
                 tool: "Google Workspace",
                 description:
-                    "Utilised for collaborative drafting, stakeholder communications and real-time document co-authoring across geographically dispersed teams operating in 15+ African countries.",
+                    "Utilised for collaborative drafting, stakeholder communications and real-time document co-authoring across geographically dispersed teams operating in 5+ African countries.",
             },
         ],
         coreCompetencies: [

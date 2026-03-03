@@ -12,7 +12,7 @@ const engagementModels = [
         name: "Project Engagement",
         description: "A focused time-bound engagement designed to solve a specific challenge. I come in, diagnose the situation, deliver a defined scope of work and leave your organisation with tangible outputs and improved capability.",
         details: [
-            { label: "Duration", value: "Typically 4 to 12 weeks" },
+            { label: "Duration", value: "Based on assignment basis" },
             { label: "Deliverable", value: "Defined scope with clear measurable outputs" },
             { label: "Best For", value: "Specific challenges needing focused expert intervention." }
         ],
@@ -23,7 +23,7 @@ const engagementModels = [
         name: "Retained Advisory",
         description: "An ongoing monthly partnership that gives your organisation consistent access to senior grants and business development expertise without the cost of a full-time hire. Strategic counsel available when you need it most.",
         details: [
-            { label: "Duration", value: "Ongoing monthly engagement" },
+            { label: "Duration", value: "Based on assignment basis" },
             { label: "Deliverable", value: "Strategic counsel and on-demand support" },
             { label: "Best For", value: "Organisations needing continuous grants leadership capacity." }
         ],
@@ -34,7 +34,7 @@ const engagementModels = [
         name: "Workshop and Training",
         description: "Customised intensive training designed to build your team's internal capability in grants management, proposal development, compliance or programme leadership. Delivered on-site or virtually across Africa.",
         details: [
-            { label: "Duration", value: "One to three days on-site or virtual" },
+            { label: "Duration", value: "Based on assignment basis" },
             { label: "Deliverable", value: "Customised training materials and action plan" },
             { label: "Best For", value: "Teams needing to build internal grants management capability." }
         ],
@@ -107,7 +107,9 @@ export default function AdvisoryEngagementModels() {
 
                                 <div className="mt-auto pt-4 border-t border-bordergrey">
                                     <a
-                                        href={`mailto:kanyitoday@gmail.com?subject=${encodeURIComponent(model.enquirySubject)}`}
+                                        href="https://calendly.com/kanyitoday/30min"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 font-body text-navy text-xs font-semibold uppercase tracking-wide transition-colors duration-200 hover:text-charcoal"
                                     >
                                         ENQUIRE NOW

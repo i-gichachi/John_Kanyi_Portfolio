@@ -30,7 +30,7 @@ export const CareerTimeline = () => {
                             const ongoing = item.current || index === 0;
 
                             let achievementTag = undefined;
-                            if (index === 0) achievementTag = "$100M+ secured annually across 15 African countries";
+                            if (index === 0) achievementTag = "$100M+ managed annually across 5+ African countries";
                             else if (index === 1) achievementTag = "40+ competitive bids submitted over five years";
                             else if (index === 2) achievementTag = "$21.1M in trade deals facilitated for 200+ partners";
 

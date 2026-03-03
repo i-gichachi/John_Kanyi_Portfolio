@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 const impactMetrics = [
-    { value: "$100M+", label: "Secured Annually" },
+    { value: "$100M+", label: "Managed Annually" },
     { value: "65%", label: "Win Rate on Major Bids" },
     { value: "$250M+", label: "Regional Pipeline" },
     { value: "200,000", label: "Farmers Reached" },

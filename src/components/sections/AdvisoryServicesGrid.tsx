@@ -15,6 +15,18 @@ export default function AdvisoryServicesGrid() {
             <div className="max-w-screen-lg mx-auto px-6">
                 <SectionTitle title="Advisory Services" />
 
+                <div className="flex flex-col items-center justify-center mt-6 mb-2">
+                    <span className="font-inter text-charcoal/60 text-sm mb-2">Advisory services delivered through:</span>
+                    <a
+                        href="https://www.thinkatonneadvisory.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-playfair text-navy text-xl lg:text-2xl font-bold hover:text-gold transition-colors duration-300"
+                    >
+                        Thinkatonne Advisory
+                    </a>
+                </div>
+
                 <motion.div
                     variants={staggerContainer}
                     initial="hidden"
@@ -31,9 +43,6 @@ export default function AdvisoryServicesGrid() {
                             } else if (service.timeframe?.toLowerCase().includes("assignment")) {
                                 pillText = "Project-Based";
                             }
-
-                            const subject = `Enquiry: ${service.title}`;
-                            const mailtoHref = `mailto:kanyitoday@gmail.com?subject=${encodeURIComponent(subject)}`;
 
                             return (
                                 <motion.div
@@ -116,7 +125,9 @@ export default function AdvisoryServicesGrid() {
                                                 <div></div>
                                             )}
                                             <a
-                                                href={mailtoHref}
+                                                href="https://calendly.com/kanyitoday/30min"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
                                                 className="inline-flex items-center gap-2 bg-navy text-white font-body text-xs font-semibold uppercase tracking-wide rounded-full px-5 py-2.5 transition-all duration-200 hover:opacity-90"
                                             >
                                                 ENQUIRE
@@ -142,9 +153,6 @@ export default function AdvisoryServicesGrid() {
                                     } else if (service.timeframe?.toLowerCase().includes("assignment")) {
                                         pillText = "Project-Based";
                                     }
-
-                                    const subject = `Enquiry: ${service.title}`;
-                                    const mailtoHref = `mailto:kanyitoday@gmail.com?subject=${encodeURIComponent(subject)}`;
 
                                     return (
                                         <motion.div
@@ -227,7 +235,9 @@ export default function AdvisoryServicesGrid() {
                                                         <div></div>
                                                     )}
                                                     <a
-                                                        href={mailtoHref}
+                                                        href="https://calendly.com/kanyitoday/30min"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
                                                         className="inline-flex items-center gap-2 bg-navy text-white font-body text-xs font-semibold uppercase tracking-wide rounded-full px-5 py-2.5 transition-all duration-200 hover:opacity-90"
                                                     >
                                                         ENQUIRE

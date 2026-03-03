@@ -24,7 +24,7 @@ export default function AdvisorySnapshot() {
         let engagement = "";
 
         if (id === 1) {
-            hook = "Helping non-profits and NGOs win the right funding and deliver it with full donor compliance. Built on $100M+ secured annually and 17 years of portfolio management across sub-Saharan Africa.";
+            hook = "Helping non-profits and NGOs win the right funding and deliver it with full donor compliance. Built on $100M+ managed annually and 17 years of portfolio management across sub-Saharan Africa.";
             engagement = "3-Day Intensive Module";
         } else if (id === 3) {
             hook = "Connecting your organisation to the donors most likely to invest in your mission through intelligence-led funding strategy. Anchored in a $250M+ pipeline and a 65% win rate on major competitive bids.";

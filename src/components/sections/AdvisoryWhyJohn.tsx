@@ -23,7 +23,7 @@ const capabilities = [
     },
     {
         name: "Remote Programme Leadership",
-        description: "Led complex multi-country programmes across 15 African countries entirely remotely.",
+        description: "Led complex multi-country programmes across 5+ African countries entirely remotely.",
         years: "10"
     }
 ];
@@ -53,7 +53,7 @@ export default function AdvisoryWhyJohn() {
                         <div className="h-[1px] bg-bordergrey w-[64px] mt-5 mb-5"></div>
 
                         <p className="font-body text-charcoal text-sm leading-relaxed">
-                            Every advisory engagement I take on is grounded in the same discipline that built a $250M pipeline, sustained a 65% win rate and delivered zero audit findings across some of the most demanding donor environments in global health. This is not theoretical. This is applied expertise built across 17 years and 15 African countries.
+                            Every advisory engagement I take on is grounded in the same discipline that built a $250M pipeline, sustained a 65% win rate and delivered zero audit findings across some of the most demanding donor environments in global health. This is not theoretical. This is applied expertise built across 17 years and 5+ African countries.
                         </p>
 
                         <div className="flex flex-col gap-3 mt-6">

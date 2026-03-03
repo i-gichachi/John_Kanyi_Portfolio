@@ -2,7 +2,7 @@
 
 const hero = {
     name: "John Kanyi",
-    roleTitle: "Senior Grants & Business Development Leader",
+    roleTitle: "International Grants & Business Development Leader",
     tagline: "Securing high-impact donor funding and driving programme excellence across Africa for over 17 years.",
     location: "Nairobi, Kenya",
     email: "kanyitoday@gmail.com",
